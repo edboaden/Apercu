@@ -1,0 +1,39 @@
+
+/* Styles */
+
+* {
+	margin: 0; 
+}
+
+body {
+	color: #333;
+	font: 15px / 22px 'Courier New', monospace;
+	margin: 100px auto 0;
+	width: 320px;
+}
+
+main {
+	display: inline-block;
+}
+
+header {
+}
+
+img {
+	display: block;
+	margin: 0 auto 66px;
+	width: 122px; /* Half of image width for 2x resolution */
+}
+
+p {
+	margin: 22px 0;
+}
+
+a, a:visited {
+	color: #E53160;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	border-bottom: 1px solid #E53160;
+}
