@@ -7,7 +7,7 @@
 
 body {
 	color: #333;
-	font: 15px / 22px 'Courier New', monospace;
+	font: 15px / 1.4em 'Courier New', monospace;
 	margin: 100px auto 0;
 	width: 320px;
 }
@@ -21,12 +21,12 @@ header {
 
 img {
 	display: block;
-	margin: 0 auto 66px;
+	margin: 0 auto 4em;
 	width: 122px; /* Half of image width for 2x resolution */
 }
 
 p {
-	margin: 22px 0;
+	margin: 0.7em 0; /* 0.5 x line-height */
 }
 
 a, a:visited {
