@@ -7,27 +7,19 @@
 
 body {
 	color: #000;
-	font: 15px / 1.4em 'Courier New', monospace;
+	font: 16px / 1.3em 'Courier New', monospace;
 	margin: 100px auto 0;
 	text-align: center;
-	width: 320px;
-}
-
-main {
-	display: inline-block;
-}
-
-header {
 }
 
 img {
 	display: block;
-	margin: 0 auto 4em;
-	width: 122px; /* Half of image width for 2x resolution */
+	margin: 0 auto 2.2em;
+	width: 370px; /* Half of image width for 2x resolution */
 }
 
 p {
-	margin: 0.7em 0; /* 0.5 x line-height */
+	margin: 0.5em 0;
 }
 
 a, a:visited {
@@ -37,5 +29,4 @@ a, a:visited {
 
 a:hover, a:active {
 	color: #FF00FF;
-	border-bottom: 1px solid #FF00FF;
 }
