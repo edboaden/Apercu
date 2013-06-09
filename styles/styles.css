@@ -6,9 +6,10 @@
 }
 
 body {
-	color: #333;
+	color: #000;
 	font: 15px / 1.4em 'Courier New', monospace;
 	margin: 100px auto 0;
+	text-align: center;
 	width: 320px;
 }
 
@@ -30,10 +31,11 @@ p {
 }
 
 a, a:visited {
-	color: #E53160;
+	color: #000;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	border-bottom: 1px solid #E53160;
+	color: #FF00FF;
+	border-bottom: 1px solid #FF00FF;
 }
