@@ -15,7 +15,7 @@ body {
 img {
 	display: block;
 	margin: 0 auto 2.2em;
-	width: 370px; /* Half of image width for 2x resolution */
+	width: 370px; max-width: 100%; /* Half of image width for 2x resolution */
 }
 
 p {

@@ -18,7 +18,7 @@ $(function() {
 
 	$(window).resize(function() {
 		page_height = $(window).height()
-		margin = (page_height - body_height) / 2
+		margin = (page_height - body_height) / 2 - 35
 
 		$('body').css('margin-top', margin)
 	})
