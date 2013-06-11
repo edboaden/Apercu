@@ -22,4 +22,7 @@ $(function() {
 
 		$('body').css('margin-top', margin)
 	})
+
+	// Fade in
+	$('body').fadeIn(300)
 })
