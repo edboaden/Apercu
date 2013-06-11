@@ -12,9 +12,15 @@ body {
 	text-align: center;
 }
 
+h1 {
+	font-size: 1em;
+	height: 110px; /* Half of image height for 2x resolution */
+	margin-bottom: 2.2em;
+}
+
 img {
 	display: block;
-	margin: 0 auto 2.2em;
+	margin: 0 auto;
 	width: 370px; max-width: 100%; /* Half of image width for 2x resolution */
 }
 
